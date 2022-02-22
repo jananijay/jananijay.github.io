@@ -199,7 +199,7 @@
   src: url("../assets/fonts/hermes_maia_3_bold_italic.woff2") format("woff2");
 }
 body {
-  background-color: #e5e5fb;
+  background-color: #e9e8fd;
   font-family: heliotrope_3, Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
   margin-left: auto;
@@ -241,7 +241,7 @@ a {
   color: #161DC7;
   outline: none;
   text-decoration: none;
-  border-bottom: 1px solid #6B81F2;
+  border-bottom: 1px solid #F29958;
 }
 
 a:focus {
