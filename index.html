@@ -1,42 +1,126 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>home - janani jay</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home — Service design for a better world.</title>
+  <meta name="description" content="Hi! I'm Jay (she/they). I work as a service design lead in digital security.">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
 </head>
-
 <body>
-    <header>
-        <p>janani jay - researcher, designer, systems thinker.</p>
-        <div>
-            <a title="professional and educational timeline page" href="https://jananijay.com/about">about me</a>
-            <a title="professional and educational timeline page" href="https://timeline.jananijay.com">timeline</a>
-            <a title="my UX design resume" href="https://jananijay.com/assets/resumes/Janani Jay 2022 - Design.pdf">resume</a>
-            <a title="contact email" href="mailto: hello@jananijay.com">write me</a>
-            <a title="calendly" href="https://calendly.com/jananijay/">schedule</a>
 
-        </div>
-    </header>
+  <header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="Janani Jay — home">
+      <span class="logo-text">janani jay</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="#about">about</a></li>
+        <li><a href="https://timeline.jananijay.com">timeline</a></li>
+        <li><a href="#contact" class="nav-cta">write me</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+  </div>
+</header>
 
 
-    <h1 class="bold">
-        service design for a better world.
-    </h1>
-
-    <p>
-        Hi! I'm Jay (she/they). I work as a service design lead in digital security.
-        <br><br>
-        I am available for UXR consulting roles individually, and for digital safety and security consulting and forensics with other consultant experts from my network.
-        <br><br>
-        My <a title="professional and educational timeline page" href="https://timeline.jananijay.com">timeline page</a> has a little bit more about me. You can also check out my <a title="linkedin profile" href="https://www.linkedin.com/in/jj4/">linkedin profile</a>.</a>
-        <br><br>
-        Take a look at my <a title="my UX design resume" href="https://jananijay.com/assets/resumes/Janani Jay 2022 - Design.pdf">general design resume (pdf).</a> For portfolio work, please reach out to connect (<a title="contact email" href="mailto: hello@jananijay.com">email</a> or <a title="calendly booking page - jananijay" href="https://calendly.com/jananijay/">calendly</a>).
-        <br><br>
-
-    </p>
-
+  <main>
     
-</body>
 
+<section class="hero" id="hero">
+  <div class="hero-content container">
+    <p class="hero-eyebrow">Researcher, designer, systems thinker.</p>
+    <h1 class="hero-title">Service design for a better world.</h1>
+    <p class="hero-subtitle">Hi! I'm Jay (she/they). I work as a service design lead in digital security.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-primary">Get in touch</a>
+      <a href="https://timeline.jananijay.com" class="btn btn-ghost">View timeline →</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="about section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">01 — About</span>
+      <h2 class="section-title">About</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-lead">I am available for UXR consulting roles individually, and for digital safety and security consulting and forensics with other consultant experts from my network.</p>
+      <p class="about-body">
+        My <a href="https://timeline.jananijay.com">timeline page</a> has a little bit more about me.
+        You can also check out my <a href="https://www.linkedin.com/in/jj4/">LinkedIn profile</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">02 — Contact</span>
+      <h2 class="section-title">Let's connect</h2>
+      <p class="section-subtitle">For portfolio work or consulting inquiries, reach out by email or book a time.</p>
+    </div>
+
+    <div class="contact-card">
+      <a href="mailto:hello@jananijay.com" class="contact-action">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">hello@jananijay.com</span>
+      </a>
+      <a href="https://calendly.com/jananijay/" class="contact-action" rel="noopener">
+        <span class="contact-label">Schedule</span>
+        <span class="contact-value">Book a time on Calendly</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="footer-logo">
+        <span class="logo-text">janani jay</span>
+      </a>
+      <p class="footer-tagline">Researcher, designer, systems thinker.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p><a href="mailto:hello@jananijay.com">hello@jananijay.com</a></p>
+      <p><a href="https://calendly.com/jananijay/" rel="noopener">Book a time</a></p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Elsewhere</h4>
+      <ul class="footer-links">
+        <li><a href="https://timeline.jananijay.com" rel="noopener">Timeline</a></li>
+        <li><a href="https://www.linkedin.com/in/jj4/" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Janani Jay.</p>
+  </div>
+</footer>
+
+
+  <script src="/js/main.js" defer></script>
+</body>
 </html>
