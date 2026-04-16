@@ -1,0 +1,28 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="footer-logo">
+        <span class="logo-text">{{ site.name | downcase }}</span>
+      </a>
+      <p class="footer-tagline">{{ site.role }}</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p><a href="{{ site.links.calendly }}" rel="noopener">Book a time</a></p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Elsewhere</h4>
+      <ul class="footer-links">
+        <li><a href="{{ site.links.timeline }}" rel="noopener">Timeline</a></li>
+        <li><a href="{{ site.links.linkedin }}" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; {{ "" | date: "Y" }} {{ site.name }}.</p>
+  </div>
+</footer>

@@ -1,0 +1,21 @@
+{
+  "name": "Janani Jay",
+  "tagline": "Service design for a better world.",
+  "role": "Researcher, designer, systems thinker.",
+  "email": "hello@jananijay.com",
+  "url": "https://jananijay.com",
+  "about": {
+    "headline": "About",
+    "intro": "Hi! I'm Jay (she/they). I work as a service design lead in digital security.",
+    "body": "I am available for UXR consulting roles individually, and for digital safety and security consulting and forensics with other consultant experts from my network."
+  },
+  "links": {
+    "timeline": "https://timeline.jananijay.com",
+    "linkedin": "https://www.linkedin.com/in/jj4/",
+    "calendly": "https://calendly.com/jananijay/"
+  },
+  "contact": {
+    "headline": "Let's connect",
+    "subtitle": "For portfolio work or consulting inquiries, reach out by email or book a time."
+  }
+}
