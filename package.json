@@ -1,33 +1,18 @@
 {
   "name": "jananijay.github.io",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Personal site for Janani Jay",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:eleventy": "npx @11ty/eleventy --serve",
-    "watch:sass": "npx sass sass:_site/css --watch",
-    "start": "npm run watch:eleventy & npm run watch:sass",
-    "clean": "rm -rf _site",
-    "build": "npm run clean && npx sass sass:_site/css && npx @11ty/eleventy"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jananijay/jananijay.github.io.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jananijay/jananijay.github.io/issues"
-  },
-  "homepage": "https://github.com/jananijay/jananijay.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "@grimlink/eleventy-plugin-sass": "^1.0.3",
-    "sass": "^1.53.0"
-  },
-  "directories": {
-    "doc": "docs"
-  },
-  "description": ""
+    "@11ty/eleventy": "3.1.2"
+  }
 }

@@ -1,0 +1,56 @@
+---
+layout: base.liquid
+title: Home
+---
+
+{% comment %} HERO {% endcomment %}
+<section class="hero" id="hero">
+  <div class="hero-content container">
+    <p class="hero-eyebrow">{{ site.role }}</p>
+    <h1 class="hero-title">{{ site.tagline }}</h1>
+    <p class="hero-subtitle">{{ site.about.intro }}</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-primary">Get in touch</a>
+      <a href="{{ site.links.timeline }}" class="btn btn-ghost">View timeline →</a>
+    </div>
+  </div>
+</section>
+
+{% comment %} ABOUT {% endcomment %}
+<section class="about section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">01 — About</span>
+      <h2 class="section-title">{{ site.about.headline }}</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-lead">{{ site.about.body }}</p>
+      <p class="about-body">
+        My <a href="{{ site.links.timeline }}">timeline page</a> has a little bit more about me.
+        You can also check out my <a href="{{ site.links.linkedin }}">LinkedIn profile</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% comment %} CONTACT {% endcomment %}
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">02 — Contact</span>
+      <h2 class="section-title">{{ site.contact.headline }}</h2>
+      <p class="section-subtitle">{{ site.contact.subtitle }}</p>
+    </div>
+
+    <div class="contact-card">
+      <a href="mailto:{{ site.email }}" class="contact-action">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">{{ site.email }}</span>
+      </a>
+      <a href="{{ site.links.calendly }}" class="contact-action" rel="noopener">
+        <span class="contact-label">Schedule</span>
+        <span class="contact-value">Book a time on Calendly</span>
+      </a>
+    </div>
+  </div>
+</section>
